@@ -59,11 +59,11 @@ public class Rational {
 		invert(r);
 		printRational(r);
 		reset(r);
-		double doubleValue = toDouble(r);
-		System.out.println(doubleValue);
+		double doubleVal = toDouble(r);
+		System.out.println(doubleVal);
 		reset(r);
 		reduce(r);
-		
+	
 	}
 }
 	
