@@ -1,7 +1,7 @@
 
 public class Timeconvert {
 	int hour, minute;
-    static double second;
+    double second;
 	public static double convertToSeconds (Time t) {
 		int minutes = t.hour * 60 + t.minute;
 		double seconds = minutes * 60 + t.second; 
